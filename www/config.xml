@@ -16,7 +16,8 @@
         PhoneGap Team
     </author>
 
-
+    
+    <plugin name="cordova-plugin-file" source="npm" />
 
     <plugin name="cordova-plugin-inappbrowser" source="npm" />
 </widget>
