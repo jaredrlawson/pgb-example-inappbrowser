@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var ref = window.open('http://invoicer.allblinds.biz', '_blank', 'location=yes');
+        var ref = window.open('https://www.pi.team/createinvoice/', '_blank', 'location=yes');
 
         ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
         ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
